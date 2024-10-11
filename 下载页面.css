@@ -1,0 +1,189 @@
+#box1 {
+	height: 650px;
+	background-image: url("./图片/2.jfif");
+	border: 1px solid black;
+	margin: auto;  /* 网页居中对齐 */
+}
+
+#box1 img:nth-child(1) {
+	position: absolute;  /* 绝对定位 */
+	top: 30px;
+	left: 200px;
+}
+
+#box1 span {
+	color: white;
+	font-size: 22px;
+	position: absolute;  /* 绝对定位 */
+	top: 50px;
+	left: 500px;
+}
+  /* 选择器 */
+#box1 span:nth-child(3) {
+	color: white;
+	font-size: 22px;
+	position: absolute;  /* 绝对定位 */
+	top: 50px;
+	left: 650px;
+}
+  /* 选择器 */
+#box1 span:nth-child(4) {
+	color: white;
+	font-size: 22px;
+	position: absolute;  /* 绝对定位 */
+	top: 50px;
+	left: 950px;
+}
+  /* 选择器 */
+#box1 span:nth-child(5) {
+	color: white;
+	font-size: 22px;
+	position: absolute;  /* 绝对定位 */
+	top: 50px;
+	left: 1070px;
+}
+  /* 选择器 */
+#box1 span:nth-child(6) {
+	color: white;
+	font-size: 22px;
+	position: absolute;  /* 绝对定位 */
+	top: 50px;
+	left: 1205px;
+}
+
+#box1 a {
+	text-decoration: none;  /* 去除a链接下划线 */
+	color: white;
+}
+
+#box1 a:hover {
+	color: #31c27c;
+}
+  /* 选择器 */
+#box1 span:nth-child(7) {
+	font-size: 70px;
+	position: absolute;
+	top: 150px;
+	left: 500px;
+}
+  /* 选择器 */
+#box1 span:nth-child(8) {
+	font-size: 50px;
+	position: absolute;  /* 绝对定位 */
+	top: 250px;
+	left: 550px;
+}
+
+#box2 {
+	width: 230px;
+	height: 80px;
+	border: 1px solid #31c27c;
+	background-color: #31c27c;
+	border-radius: 50px;  /* 设置圆角边框 */
+	position: absolute;  /* 绝对定位 */
+	left: 650px;
+	top: 400px;
+}
+
+#box2 p {
+	color: white;
+	font-size: 30px;
+	position: absolute;  /* 绝对定位 */
+	top: -15px;
+	left: 50px;
+}
+
+#box2 a:hover {
+	color: white;
+}
+
+#box3 {
+	height: 900px;
+	background-image: url("图片/3.png");
+	background-size: 2700px;  /* 背景图片大小调节 */
+	border: 1px solid black;
+	margin: auto;  /* 居中对齐 */
+	position: relative;  /* 相对定位 */
+}
+
+#box4 {
+	width: 700px;
+	height: 300px;
+	border: 1px solid white;
+	position: absolute;  /* 绝对定位 */
+	left: 400px;
+	top: 300px;
+}
+
+#box4 ul li {
+	font-size: 72px;
+	color: white;
+	text-align: center;  /* 文本水平居中 */
+	list-style: none;  /* 去无序列表项目符号 */
+}
+  /* 选择器 */
+#box4 li:nth-child(2) {
+	font-size: 22px;
+	text-align: center;
+}
+  /* 选择器 */
+#box4 li:nth-child(3) {
+	font-size: 22px;
+	text-align: center;
+}
+
+#box5 {
+	height: 800px;
+	border: 1px solid white;
+	background-image: url("./图片/3.jfif");
+	position: relative;  /* 相对定位 */
+}
+
+#box5 ul li {
+	list-style: none;  /* 去无序列表项目符号 */
+	font-size: 70px;
+	color: white;
+}
+  /* 选择器 */
+#box5 li:nth-child(3) {
+	font-size: 25px;
+}
+  /* 选择器 */
+#box5 li:nth-child(4) {
+	font-size: 25px;
+}
+
+#box5 ul {
+	position: absolute;  /* 绝对定位 */
+	left: 200px;
+	top: 200px;
+}
+
+#box5 img {
+	position: absolute;  /* 绝对定位 */
+	left: 1000px;
+	top: 100px;
+}
+
+#box6 {
+	height: 80px;
+	background: rgb(0 0 0 / 43%);  /* 颜色表 */
+	margin-top: 720px;
+	position: relative;  /* 相对定位 */
+}
+
+#box6 span {
+	color: white;
+	font-size: 12px;
+	position: absolute;  /* 绝对定位 */
+	left: 680px;
+	top: 10px;
+}
+
+#box6 span:nth-child(2) {
+	color: white;
+	font-size: 12px;
+	position: absolute;  /* 绝对定位 */
+	left: 580px;
+	top: 40px;
+}
